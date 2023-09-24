@@ -17,7 +17,7 @@ for (let i = 0; i< listaDePeliculas.length;i++) {
       if (peliculasEncontradas === nombresEstrenos.length) {
             return listaDePeliculas; // Debería imprimir el catálogo actualizado
         } else {
-            return ("No se encontró alguna de esas peliculas en nuestro catalogo");
+            return ("No se encontró alguna de esas peliculas en nuestro catalogo virtual");
         }
     }
    

@@ -62,7 +62,7 @@
     
   }
   
-  console.log(espejo("hola susana"))
+  console.log(espejo("hola Roberta"))
   
     // ----------------------------------------------//
 /*
@@ -88,7 +88,7 @@ restar(8)
 ​
 */
 ​
-function restar() {
+function  restar() {
  
  
  
