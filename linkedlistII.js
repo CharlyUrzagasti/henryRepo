@@ -18,6 +18,7 @@
 // 🟢 Retornar una NUEVA LinkedList en base a los elementos del arreglo recibido por parámetros.
 // 🟢 Si el arreglo viene vacío retornar la LinkedList COMPLETA.
 // Tip: Tanto las LinkedList como los arreglos, contendrán siempre strings.
+
 LinkedList.prototype.tacharLista = function(array) {
     // Tu código aquí:
 
