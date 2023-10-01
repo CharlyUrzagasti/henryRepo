@@ -44,6 +44,18 @@ function encontrarMasCaros(tragos, precio, index = 0, tragosCaros = []) {
         tragosCaros.push(tragos[index])
     }
 
-    return encontrarMasCaros(tragos, precio, index + 1, tragosCaros)
+    // return encontrarMasCaros(tragos, precio, index + 1, tragosCaros)
+
+    if(tragosCaros>0){
+        return encontrarMasCaros(tragos, precio, index + 1, tragosCaros)  
+    }
+    return "No hay tragos disponibles "
 
 }
+
+
+if (result.length === 0) {
+    return "No se encontraron tragos disponibles a ese precio.";
+  } else {
+    return result;
+  }
