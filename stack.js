@@ -44,19 +44,12 @@
 // • Revisa cómo acceder a cada precio para realizar la respectiva lógica a la hora de comparar.
 
 // • Debes devolver un solo arreglo de objetos 
-//  Completa la función 'tipologiasSeparadas' a continuación.
-
-
-// La función debe retornar un STACK.
-
-//  La función recibe por parámetro un ARREGLO DE NÚMEROS.
-
-//  No modifiques nada por fuera del cuerpo de la función. 
 
 
 
 
-function tipologiasSeparadas (arr) {
+
+function ordenarPedidos (pedidos) {
 
     // Tu código aquí
     
