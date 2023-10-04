@@ -52,6 +52,36 @@
 function ordenarPedidos (pedidos) {
 
     // Tu código aquí
+   
+  for (let i = 0; i < pedidos.length; i++) {
+    for (let j = i+1; j < pedidos.length; j++) {
+      
+      // Comparamos los precios y los intercambiamos si es necesario
+      if (pedidos[i].pedido.precio > pedidos[j].pedido.precio) {
+        var aux = pedidos[i];
+        pedidos[i] = pedidos[j];
+        pedidos[j] = aux;
+      }
+    }
     
-    } 
+    
+  }
+
+  return pedidos;
+}
+
+
+const pedidos = [
+   
+  { nombre: "Franco", pedido: { nombre: 'Fernet', precio: 260 } },
+  { nombre: 'Juan', pedido: { nombre: 'Sancia', precio: 228 } },
+  { nombre: 'Rico', pedido: { nombre: 'Vodka', precio: 285 } },
+  { nombre: 'Fer', pedido: { nombre: 'Martini', precio: 139 } }
+];
+
+const pedidosOrdenados = ordenarPedidos(pedidos);
+
+console.log(pedidosOrdenados);
+
+     
     
